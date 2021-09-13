@@ -1,0 +1,23 @@
+.propertyHistory {
+  display: block;
+  width: 100%;
+}
+
+.propertyHistoryTable {
+  display: table;
+  width: 100%;
+}
+
+.historyTableRow {
+  display: table-row;
+}
+
+.historyTableHeader {
+  font-weight: 600;
+}
+
+.historyTableCell {
+  display: table-cell;
+  border-bottom: 1px solid rgba(0,0,0,.4);
+  padding: 10px 0;
+}

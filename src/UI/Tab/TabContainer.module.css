@@ -1,0 +1,11 @@
+.tabContainer {
+  display: block;
+  margin: 20px auto;
+}
+
+.tabButtons {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

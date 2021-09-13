@@ -1,0 +1,36 @@
+.breadcrumbs {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+
+.breadcrumbsBack {
+  align-items: center;
+  color: rgb(51, 51, 51);
+  display: flex;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.breadcrumbsBack span {
+  margin-left: .5rem;
+}
+
+.breadcrumbsLinks {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1rem;
+}
+
+.breadcrumbsLinks a {
+  color: #37c;
+  margin: 0 .5rem;
+  text-decoration: none;
+}
+
+.breadcrumbsLinks span {
+  color: rgb(117, 117, 117);
+  margin: 0 .5rem;
+}

@@ -1,0 +1,81 @@
+.homeStats {
+  padding: 0 10px;
+}
+
+.propertyType {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+
+.propertyType::before {
+  background-color: rgb(54, 179, 150);
+  border-radius: 3px;
+  content: '';
+  display: block;
+  height: 14px;
+  margin: 5px;
+  width: 14px;
+}
+
+.priceRow {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0;
+}
+
+.priceRowEstimate {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0 0 20px;
+}
+
+.mortgageEstimate {
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.mortgageEstimateIcon {
+  margin-left: 5px;
+}
+
+.houseDetails {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.houseDetails div {
+  margin-right: 10px;
+}
+
+.stats {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.stat {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  width: 33%;
+}
+
+.statText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+}

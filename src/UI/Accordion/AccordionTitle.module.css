@@ -1,0 +1,23 @@
+.accordionTitle {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.accordionTitle h3 {
+  margin: 0;
+}
+
+.accordionTitle div {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  margin: 0 .5rem;
+}
+
+.accordionHeading {
+  flex: 1 1 auto;
+}

@@ -1,0 +1,16 @@
+.houses-list {
+  align-items: center;
+  align-self: stretch;
+  background-color: #efefef;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.search-result {
+  align-self: stretch;
+  flex: 1 1 33%;
+  /* max-width: 33%;
+  width: 100%; */
+}
+

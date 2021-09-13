@@ -1,0 +1,17 @@
+.column {
+  align-self: stretch;
+  box-sizing: border-box;
+  display: block;
+}
+
+.column2 {
+  width: 50%;
+}
+
+.column3 {
+  width: 33.3%;
+}
+
+.column4 {
+  width: 24%;
+}

@@ -1,0 +1,10 @@
+.tooltipIcon {
+  align-items: center;
+  display: flex;
+  margin-left: 5px;
+}
+
+.tooltipText {
+  display: block;
+  min-width: 300px;
+}

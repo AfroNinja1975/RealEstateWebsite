@@ -1,0 +1,10 @@
+.propertyContact {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 15px;
+}
+
+.contactText {
+  margin-right: 30px;
+}

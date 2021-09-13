@@ -1,0 +1,36 @@
+.section {
+  background-color: #FFF;
+  display: block;
+  padding: 5rem;
+}
+
+.sectionVertPaddingSm {
+  padding: 2rem 5rem;
+}
+
+.sectionDarkGray {
+  background-color: rgb(37, 37, 37);
+}
+
+.sectionGray {
+  background-color: #CCC;
+}
+
+.sectionLightGray {
+  background-color: #EFEFEF;
+}
+
+.sectionRed {
+  background-color: rgb(217, 34, 40);
+}
+
+.sectionDarkRed {
+  background-color: rgba(217, 34, 40, .25);
+}
+
+.section h2 a {
+  color: rgb(217, 34, 40);
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+}

@@ -1,0 +1,17 @@
+.columns {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.columnsStart {
+  align-items: flex-start;
+}
+
+.columnsEnd {
+  align-items: flex-end;
+}
+
+.staggeredColumns:nth-child(even) {
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,15 @@
+.openHouses {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.appointment {
+  margin-bottom: 10px;
+}
+
+.appointmentButton {
+  margin-bottom: 15px;
+}

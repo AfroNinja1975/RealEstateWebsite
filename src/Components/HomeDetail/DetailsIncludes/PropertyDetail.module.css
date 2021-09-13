@@ -1,0 +1,23 @@
+.detailSection {
+  margin-bottom: 10px;
+}
+
+.detailSectionHeader {
+  border-bottom: 1px solid rgb(51, 51, 51);
+}
+
+.detailsList {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  list-style-position: outside;
+}
+
+.details {
+  box-sizing: border-box;
+  padding: 0 10px 5px 0;
+}
+
+.detail {
+  padding: 0 10px 5px 0;
+}

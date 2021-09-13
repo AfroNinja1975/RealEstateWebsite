@@ -1,0 +1,23 @@
+.openHouseSchedule {
+  border: 2px solid rgba(0,0,0,.3);
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.selected {
+  border-color: rgb(217, 34, 40);
+}
+
+.day {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.times {
+  color: rgb(217, 34, 40);
+}

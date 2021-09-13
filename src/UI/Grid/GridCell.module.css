@@ -1,0 +1,25 @@
+.gridCell {
+  align-self: stretch;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.gridCell25 {
+  width: 25%;
+}
+
+.gridCell30 {
+  width: 30%;
+}
+
+.gridCell50 {
+  width: 50%;
+}
+
+.gridCell70 {
+  width: 70%;
+}
+
+.gridCell75 {
+  width: 75%;
+}

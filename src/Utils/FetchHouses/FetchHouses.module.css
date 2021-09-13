@@ -1,0 +1,101 @@
+.housesList {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 -10px 100px;
+}
+
+.housesHeading a,
+.housesHeading span {
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.housesListHouses {
+  align-self: stretch;
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+  max-width: 25%;
+  padding: 0 5px 10px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.housesListHouse {
+  height: 100%;
+  width: 100%;
+}
+
+.houseImage {
+  height: 240px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.newHouse {
+  background-color: rgb(51, 119, 204);
+  color: #FFF;
+  display: block;
+  font-weight: bold;
+  left: 10px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 10px;
+}
+
+.houseImage img {
+  height: auto;
+  left: 0;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.houseDetail {
+  padding: 1rem;
+}
+
+.houseDetail h3 {
+  margin: 0 0 10px 0;
+}
+
+.houseDetails {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.houseDetails div {
+  margin-right: 10px;
+}
+
+.propertyType {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.propertyType::before {
+  background-color: rgb(54, 179, 150);
+  border-radius: 3px;
+  content: '';
+  display: block;
+  height: 14px;
+  margin-right: 5px;
+  width: 14px;
+}
+
+.favorite {
+  bottom: 10px;
+  display: block;
+  right: 10px;
+  position: absolute;
+  background: none;
+  border: none;
+}
