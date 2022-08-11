@@ -9,30 +9,30 @@ import PropertyDetailsIcon from "../../Assets/SVG/PropertyDetailsIcon";
 import PropertyHistory from "./DetailsIncludes/PropertyHistory";
 import PropertyHistoryIcon from "../../Assets/SVG/PropertyHistoryIcon";
 
-const HomeAccordions = (props) => {
+const HomeAccordions = ({details}:props) => {
   const accordionList = [
-    {
-      title: "Open Houses",
-      icon: <OpenHousesIcon />,
-      content: <OpenHouses list={props.details["open_houses"]} />,
-      open: true,
-    },
+    // {
+    //   title: "Open Houses",
+    //   icon: <OpenHousesIcon />,
+    //   content: <OpenHouses list={props.details["open_houses"]} />,
+    //   open: true,
+    // },
     {
       title: "Property Details",
       icon: <PropertyDetailsIcon />,
-      content: <PropertyDetails detail={props.details} />,
+      content: <PropertyDetails detail={details} />,
       open: false,
     },
     {
       title: "Property History",
       icon: <PropertyHistoryIcon />,
-      content: <PropertyHistory detail={props.details} />,
+      content: <PropertyHistory detail={details} />,
       open: false,
     },
     {
       title: "Monthly Payment",
       icon: <MonthlyPaymentIcon />,
-      content: <MonthlyPayment detail={props.details} />,
+      content: <MonthlyPayment detail={details} />,
       open: true,
     },
   ];

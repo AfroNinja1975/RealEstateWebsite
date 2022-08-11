@@ -4,6 +4,8 @@ import Modal from "../../UI/Modal/Modal";
 import classes from "./Navigation.module.css";
 //import NavItems from "./NavigationArray.js";
 import NavItem from "./NavItem";
+import Login from "./Login/Login";
+import Register from "./Register/Register";
 
 const Navigation = (props) => {
   const locationCtx = useContext(LocationContext);
@@ -12,14 +14,14 @@ const Navigation = (props) => {
   const [signUp, setSignUp] = useState(false);
 
   const handleLogin = (e) => {
+    setSignUp(false);
     setLogin(true);
-    //    e.preventDefault();
     return console.log("Login");
   };
 
   const handleSignUp = (e) => {
+    setLogin(false);
     setSignUp(true);
-    //   e.preventDefault();
     return console.log("SignUp");
   };
 
@@ -614,10 +616,20 @@ const Navigation = (props) => {
         );
       })}
       {login && (
-        <Modal onHideModal={handleModalClose}>Login Modal</Modal>
+        <Modal onHideModal={handleModalClose}>
+          <Login
+            onHideModal={handleModalClose}
+            onSwitchToRegister={handleSignUp}
+          />
+        </Modal>
       )}
       {signUp && (
-        <Modal onHideModal={handleModalClose}>Sign Up Modal</Modal>
+        <Modal onHideModal={handleModalClose}>
+          <Register
+            onHideModal={handleModalClose}
+            onSwitchToLogin={handleLogin}
+          />
+        </Modal>
       )}
     </nav>
   );

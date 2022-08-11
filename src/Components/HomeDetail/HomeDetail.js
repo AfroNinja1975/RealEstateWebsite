@@ -5,13 +5,15 @@ import HomeDetailImageSlider from "./HomeDetailImageSlider";
 import HomeStats from "./HomeStats";
 import HomeDetailMap from "./HomeDetailMap";
 
-const HomeDetail = (props) => {
-  const details = props.details;
-
-  const openHouseDate =
-    details["open_houses"].length > 0
-      ? details["open_houses"][0]["start_date"]
-      : "";
+const HomeDetail = ({details}:props) => {
+  //  const details = props.details;
+  console.log(details);
+  const openHouseDate = "";
+  // const openHouseDate =
+  //   details.client_display_flags.has_open_house
+  //     ? details.open_houses.[0].start_date
+  //     : "";
+  // console.log(details.client_display_flags.has_open_house);
 
   return (
     <Grid>

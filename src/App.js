@@ -13,7 +13,6 @@ import FindRealtors from "./Pages/FindRealtors";
 import Property from "./Pages/Property";
 import HomePage from "./Pages/HomePage";
 import Insights from "./Pages/Insights";
-import LogIn from "./Pages/LogIn";
 import Mortgage from "./Pages/Rent";
 import MyHome from "./Pages/MyHome";
 import Rent from "./Pages/Rent";
@@ -64,11 +63,6 @@ const routes = [
     exact: true,
     path: "/Insights",
     component: <Insights />,
-  },
-  {
-    exact: true,
-    path: "/LogIn",
-    component: <LogIn />,
   },
 ];
 
